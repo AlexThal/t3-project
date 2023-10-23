@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3RecordDocument>
+	<header type="array">
+		<XMLversion>1.0</XMLversion>
+		<meta type="array">
+			<title></title>
+			<description></description>
+			<notes></notes>
+			<packager_username>AlexThlr</packager_username>
+			<packager_name></packager_name>
+			<packager_email>Alexander.karl.thaler@gmail.com</packager_email>
+			<TYPO3_version>12.4.7</TYPO3_version>
+			<created>Mon 23. October 2023</created>
+		</meta>
+		<static_tables index="relStaticTables" type="array"></static_tables>
+		<excludeMap type="array"></excludeMap>
+		<softrefCfg type="array"></softrefCfg>
+		<extensionDependencies type="array">
+			<extkey index="0">core</extkey>
+			<extkey index="1">extbase</extkey>
+			<extkey index="2">fluid</extkey>
+			<extkey index="3">install</extkey>
+			<extkey index="4">backend</extkey>
+			<extkey index="5">frontend</extkey>
+			<extkey index="6">dashboard</extkey>
+			<extkey index="7">fluid_styled_content</extkey>
+			<extkey index="8">filelist</extkey>
+			<extkey index="9">impexp</extkey>
+			<extkey index="10">form</extkey>
+			<extkey index="11">seo</extkey>
+			<extkey index="12">setup</extkey>
+			<extkey index="13">rte_ckeditor</extkey>
+			<extkey index="14">belog</extkey>
+			<extkey index="15">beuser</extkey>
+			<extkey index="16">extensionmanager</extkey>
+			<extkey index="17">felogin</extkey>
+			<extkey index="18">filemetadata</extkey>
+			<extkey index="19">indexed_search</extkey>
+			<extkey index="20">info</extkey>
+			<extkey index="21">reactions</extkey>
+			<extkey index="22">sys_note</extkey>
+			<extkey index="23">t3editor</extkey>
+			<extkey index="24">tstemplate</extkey>
+			<extkey index="25">viewpage</extkey>
+			<extkey index="26">webhooks</extkey>
+			<extkey index="27">bootstrap_package</extkey>
+			<extkey index="28">introduction</extkey>
+		</extensionDependencies>
+		<charset>utf-8</charset>
+		<pagetree type="array">
+			<node index="178" type="array">
+				<uid>178</uid>
+			</node>
+		</pagetree>
+		<records type="array">
+			<table index="pages" type="array">
+				<rec index="178" type="array">
+					<uid>178</uid>
+					<pid>0</pid>
+					<title>Start-Page</title>
+					<relations index="rels" type="array">
+						<element index="pages:86" type="array">
+							<id>86</id>
+							<table>pages</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+			</table>
+			<table index="sys_file_reference" type="array">
+				<rec index="334" type="array">
+					<uid>334</uid>
+					<pid>178</pid>
+					<title>rafael-hoyos-weht-EKOKHzU5U-U-unsplash.j...</title>
+					<relations index="rels" type="array">
+						<element index="sys_file:185" type="array">
+							<id>185</id>
+							<table>sys_file</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+				<rec index="457" type="array">
+					<uid>457</uid>
+					<pid>178</pid>
+					<title>globalpedia-hero-argentina-1.jpg</title>
+					<relations index="rels" type="array">
+						<element index="sys_file:1116" type="array">
+							<id>1116</id>
+							<table>sys_file</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+			</table>
+			<table index="sys_template" type="array">
+				<rec index="5" type="array">
+					<uid>5</uid>
+					<pid>178</pid>
+					<title>Introduction Package</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="include_static_file:ext_fileref:2" type="array">
+							<field>include_static_file</field>
+							<spKey>ext_fileref</spKey>
+							<matchString>EXT:bootstrap_package/Configuration/TypoScript</matchString>
+						</softref_element>
+						<softref_element index="constants:url:2" type="array">
+							<field>constants</field>
+							<spKey>url</spKey>
+							<matchString>https://www.facebook.com/typo3/</matchString>
+							<subst type="array">
+								<type>string</type>
+								<tokenID>343a10e6c2480e111dd3e9e564eb7966</tokenID>
+								<tokenValue>https://www.facebook.com/typo3/</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="constants:url:7" type="array">
+							<field>constants</field>
+							<spKey>url</spKey>
+							<matchString>https://twitter.com/typo3</matchString>
+							<subst type="array">
+								<type>string</type>
+								<tokenID>e447e9841537ca15610f6264eb3a2671</tokenID>
+								<tokenValue>https://twitter.com/typo3</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="constants:url:12" type="array">
+							<field>constants</field>
+							<spKey>url</spKey>
+							<matchString>https://github.com/TYPO3/TYPO3.CMS</matchString>
+							<subst type="array">
+								<type>string</type>
+								<tokenID>9acad8fb6435ad4224ed723b8edb240e</tokenID>
+								<tokenValue>https://github.com/TYPO3/TYPO3.CMS</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="constants:url:17" type="array">
+							<field>constants</field>
+							<spKey>url</spKey>
+							<matchString>https://www.youtube.com/user/typo3</matchString>
+							<subst type="array">
+								<type>string</type>
+								<tokenID>f295b6127908fe930ce19590508d96a0</tokenID>
+								<tokenValue>https://www.youtube.com/user/typo3</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+			</table>
+			<table index="tt_content" type="array">
+				<rec index="612" type="array">
+					<uid>612</uid>
+					<pid>178</pid>
+					<title>Welcome to Argentina – a land where cult...</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+				<rec index="475" type="array">
+					<uid>475</uid>
+					<pid>178</pid>
+					<title>I hope you enjoyed the short tour</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+				<rec index="474" type="array">
+					<uid>474</uid>
+					<pid>178</pid>
+					<title>More about...</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="bodytext:typolink_tag:1" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;https://argentina.wcs.org/en-us/Wildlife.aspx&quot; title=&quot;Wildlife&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+							<subst type="array">
+								<type>external</type>
+								<tokenID>9793157a4b5612ac24c60750def09187</tokenID>
+								<tokenValue>https://argentina.wcs.org/en-us/Wildlife.aspx</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="bodytext:typolink_tag:3" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;https://larutanatural.gob.ar/es/acerca-de-argentina&quot; title=&quot;Argentina&quot;&gt;</matchString>
+							<subst type="array">
+								<type>external</type>
+								<tokenID>836133f8cd08cd1a4add6c4916e7eb89</tokenID>
+								<tokenValue>https://larutanatural.gob.ar/es/acerca-de-argentina</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="bodytext:typolink_tag:5" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;https://www.youtube.com/watch?v=TAIZg2qV9BE&amp;amp;ab_channel=CalixtoSerna-M%C3%A9xicoCookingClub&quot; title=&quot;Asado&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+							<subst type="array">
+								<type>external</type>
+								<tokenID>7113e6e9475e8965780cec70195497e9</tokenID>
+								<tokenValue>https://www.youtube.com/watch?v=TAIZg2qV9BE&amp;amp;ab_channel=CalixtoSerna-M%C3%A9xicoCookingClub</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+				<rec index="473" type="array">
+					<uid>473</uid>
+					<pid>178</pid>
+					<title>Startpage Teaser</title>
+					<relations index="rels" type="array">
+						<element index="tx_bootstrappackage_carousel_item:22" type="array">
+							<id>22</id>
+							<table>tx_bootstrappackage_carousel_item</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+				<rec index="472" type="array">
+					<uid>472</uid>
+					<pid>178</pid>
+					<title>Live the dream of every nature enthusias...</title>
+					<relations index="rels" type="array">
+						<element index="sys_file_reference:334" type="array">
+							<id>334</id>
+							<table>sys_file_reference</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+				<rec index="471" type="array">
+					<uid>471</uid>
+					<pid>178</pid>
+					<title>Places to go</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="bodytext:typolink_tag:1" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;t3://page?uid=199&quot;&gt;</matchString>
+							<subst type="array">
+								<type>db</type>
+								<recordRef>pages:199</recordRef>
+								<tokenID>a10b65f0d33351b21568451efa3381e9</tokenID>
+								<tokenValue>199</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+				<rec index="470" type="array">
+					<uid>470</uid>
+					<pid>178</pid>
+					<title>Avtivities</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="bodytext:typolink_tag:1" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;t3://page?uid=183&quot;&gt;</matchString>
+							<subst type="array">
+								<type>db</type>
+								<recordRef>pages:183</recordRef>
+								<tokenID>20bbb3ef3a618f7d89471b3486a8914c</tokenID>
+								<tokenValue>183</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+				<rec index="469" type="array">
+					<uid>469</uid>
+					<pid>178</pid>
+					<title>Cuisine</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="bodytext:typolink_tag:1" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;t3://page?uid=196&quot;&gt;</matchString>
+							<subst type="array">
+								<type>db</type>
+								<recordRef>pages:196</recordRef>
+								<tokenID>1e5f3ace4aa045f044533c7f6727a38c</tokenID>
+								<tokenValue>196</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+				<rec index="468" type="array">
+					<uid>468</uid>
+					<pid>178</pid>
+					<title>Other</title>
+					<relations index="rels" type="array"></relations>
+					<softrefs type="array">
+						<softref_element index="bodytext:typolink_tag:1" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;https://tableros.yvera.tur.ar/agencias-larutanatural/&quot; title=&quot;Travel Agencies&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+							<subst type="array">
+								<type>external</type>
+								<tokenID>1e60d063e9b81214d3f450df1b3d386f</tokenID>
+								<tokenValue>https://tableros.yvera.tur.ar/agencias-larutanatural/</tokenValue>
+							</subst>
+						</softref_element>
+						<softref_element index="bodytext:typolink_tag:3" type="array">
+							<field>bodytext</field>
+							<spKey>typolink_tag</spKey>
+							<matchString>&lt;a href=&quot;https://larutanatural.gob.ar/es/consejos-importantes&quot; title=&quot;Important Tips&quot;&gt;</matchString>
+							<subst type="array">
+								<type>external</type>
+								<tokenID>f78f9eafdfbac204dc39be3bc761eafa</tokenID>
+								<tokenValue>https://larutanatural.gob.ar/es/consejos-importantes</tokenValue>
+							</subst>
+						</softref_element>
+					</softrefs>
+				</rec>
+			</table>
+			<table index="tx_bootstrappackage_carousel_item" type="array">
+				<rec index="22" type="array">
+					<uid>22</uid>
+					<pid>178</pid>
+					<title>.</title>
+					<relations index="rels" type="array">
+						<element index="tt_content:473" type="array">
+							<id>473</id>
+							<table>tt_content</table>
+						</element>
+						<element index="sys_file_reference:457" type="array">
+							<id>457</id>
+							<table>sys_file_reference</table>
+						</element>
+					</relations>
+					<softrefs type="array"></softrefs>
+				</rec>
+			</table>
+		</records>
+		<pid_lookup type="array">
+			<page_contents index="0" type="array">
+				<table index="pages" type="array">
+					<item index="178">1</item>
+				</table>
+			</page_contents>
+			<page_contents index="178" type="array">
+				<table index="sys_file_reference" type="array">
+					<item index="334">1</item>
+					<item index="457">1</item>
+				</table>
+				<table index="sys_template" type="array">
+					<item index="5">1</item>
+				</table>
+				<table index="tt_content" type="array">
+					<item index="612">1</item>
+					<item index="475">1</item>
+					<item index="474">1</item>
+					<item index="473">1</item>
+					<item index="472">1</item>
+					<item index="471">1</item>
+					<item index="470">1</item>
+					<item index="469">1</item>
+					<item index="468">1</item>
+				</table>
+				<table index="tx_bootstrappackage_carousel_item" type="array">
+					<item index="22">1</item>
+				</table>
+			</page_contents>
+		</pid_lookup>
+	</header>
+	<records type="array">
+		<tablerow index="pages:178" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">178</field>
+				<field index="pid" type="integer">0</field>
+				<field index="tstamp" type="integer">1698004962</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">16</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l10n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">2</field>
+				<field index="l10n_diffsource">{&quot;doktype&quot;:&quot;&quot;,&quot;title&quot;:&quot;&quot;,&quot;slug&quot;:&quot;&quot;,&quot;nav_title&quot;:&quot;&quot;,&quot;subtitle&quot;:&quot;&quot;,&quot;nav_icon_set&quot;:&quot;&quot;,&quot;nav_icon&quot;:&quot;&quot;,&quot;seo_title&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;no_index&quot;:&quot;&quot;,&quot;no_follow&quot;:&quot;&quot;,&quot;canonical_link&quot;:&quot;&quot;,&quot;sitemap_changefreq&quot;:&quot;&quot;,&quot;sitemap_priority&quot;:&quot;&quot;,&quot;og_title&quot;:&quot;&quot;,&quot;og_description&quot;:&quot;&quot;,&quot;og_image&quot;:&quot;&quot;,&quot;twitter_title&quot;:&quot;&quot;,&quot;twitter_description&quot;:&quot;&quot;,&quot;twitter_image&quot;:&quot;&quot;,&quot;twitter_card&quot;:&quot;&quot;,&quot;abstract&quot;:&quot;&quot;,&quot;keywords&quot;:&quot;&quot;,&quot;author&quot;:&quot;&quot;,&quot;author_email&quot;:&quot;&quot;,&quot;lastUpdated&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;newUntil&quot;:&quot;&quot;,&quot;backend_layout&quot;:&quot;&quot;,&quot;backend_layout_next_level&quot;:&quot;&quot;,&quot;thumbnail&quot;:&quot;&quot;,&quot;content_from_pid&quot;:&quot;&quot;,&quot;target&quot;:&quot;&quot;,&quot;cache_timeout&quot;:&quot;&quot;,&quot;cache_tags&quot;:&quot;&quot;,&quot;is_siteroot&quot;:&quot;&quot;,&quot;no_search&quot;:&quot;&quot;,&quot;php_tree_stop&quot;:&quot;&quot;,&quot;module&quot;:&quot;&quot;,&quot;media&quot;:&quot;&quot;,&quot;tsconfig_includes&quot;:&quot;&quot;,&quot;TSconfig&quot;:&quot;&quot;,&quot;l18n_cfg&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;nav_hide&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;extendToSubpages&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="perms_userid" type="integer">1</field>
+				<field index="perms_groupid" type="integer">1</field>
+				<field index="perms_user" type="integer">31</field>
+				<field index="perms_group" type="integer">31</field>
+				<field index="perms_everybody" type="integer">0</field>
+				<field index="title">Start-Page</field>
+				<field index="doktype" type="integer">1</field>
+				<field index="TSconfig"></field>
+				<field index="is_siteroot" type="integer">1</field>
+				<field index="php_tree_stop" type="integer">0</field>
+				<field index="url"></field>
+				<field index="shortcut" type="integer">86</field>
+				<field index="shortcut_mode" type="integer">0</field>
+				<field index="subtitle"></field>
+				<field index="layout" type="integer">0</field>
+				<field index="target"></field>
+				<field index="media" type="integer">0</field>
+				<field index="keywords"></field>
+				<field index="cache_timeout" type="integer">0</field>
+				<field index="cache_tags"></field>
+				<field index="description">This website display my love and passion for the home country of my girlfriend!</field>
+				<field index="no_search" type="integer">0</field>
+				<field index="SYS_LASTCHANGED" type="integer">1698004962</field>
+				<field index="abstract"></field>
+				<field index="module"></field>
+				<field index="extendToSubpages" type="integer">0</field>
+				<field index="author"></field>
+				<field index="author_email"></field>
+				<field index="nav_title"></field>
+				<field index="nav_hide" type="integer">0</field>
+				<field index="content_from_pid" type="integer">0</field>
+				<field index="mount_pid" type="integer">0</field>
+				<field index="mount_pid_ol" type="integer">0</field>
+				<field index="l18n_cfg" type="integer">0</field>
+				<field index="backend_layout">pagets__special_start</field>
+				<field index="backend_layout_next_level">pagets__default</field>
+				<field index="tsconfig_includes"></field>
+				<field index="categories" type="integer">0</field>
+				<field index="lastUpdated" type="integer">0</field>
+				<field index="newUntil" type="integer">0</field>
+				<field index="slug">/</field>
+				<field index="tx_impexp_origuid" type="integer">1</field>
+				<field index="seo_title"></field>
+				<field index="no_index" type="integer">0</field>
+				<field index="no_follow" type="integer">0</field>
+				<field index="og_title"></field>
+				<field index="og_description" type="NULL"></field>
+				<field index="og_image" type="integer">0</field>
+				<field index="twitter_title"></field>
+				<field index="twitter_description" type="NULL"></field>
+				<field index="twitter_image" type="integer">0</field>
+				<field index="twitter_card">summary</field>
+				<field index="canonical_link"></field>
+				<field index="sitemap_priority">0.5</field>
+				<field index="sitemap_changefreq"></field>
+				<field index="nav_icon_set"></field>
+				<field index="nav_icon_identifier"></field>
+				<field index="nav_icon" type="integer">0</field>
+				<field index="thumbnail" type="integer">0</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="shortcut" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>86</id>
+							<table>pages</table>
+						</element>
+					</relations>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="sys_file_reference:334" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">334</field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697548827</field>
+				<field index="crdate" type="integer">1697548827</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l10n_parent" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="l10n_diffsource"></field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="uid_local" type="integer">185</field>
+				<field index="uid_foreign" type="integer">472</field>
+				<field index="tablenames">tt_content</field>
+				<field index="fieldname">image</field>
+				<field index="sorting_foreign" type="integer">1</field>
+				<field index="title" type="NULL"></field>
+				<field index="description" type="NULL"></field>
+				<field index="alternative">Glacier (Perito Moreno)</field>
+				<field index="link"></field>
+				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;xlarge&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;large&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;medium&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;small&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;extrasmall&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
+				<field index="autoplay" type="integer">0</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="uid_local" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>185</id>
+							<table>sys_file</table>
+						</element>
+					</relations>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="sys_file_reference:457" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">457</field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698078712</field>
+				<field index="crdate" type="integer">1698078712</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l10n_parent" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="l10n_diffsource"></field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="uid_local" type="integer">1116</field>
+				<field index="uid_foreign" type="integer">22</field>
+				<field index="tablenames">tx_bootstrappackage_carousel_item</field>
+				<field index="fieldname">background_image</field>
+				<field index="sorting_foreign" type="integer">1</field>
+				<field index="title" type="NULL"></field>
+				<field index="description" type="NULL"></field>
+				<field index="alternative" type="NULL"></field>
+				<field index="link"></field>
+				<field index="crop">{&quot;default&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;xlarge&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;large&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;medium&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;small&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null},&quot;extrasmall&quot;:{&quot;cropArea&quot;:{&quot;x&quot;:0,&quot;y&quot;:0,&quot;width&quot;:1,&quot;height&quot;:1},&quot;selectedRatio&quot;:&quot;NaN&quot;,&quot;focusArea&quot;:null}}</field>
+				<field index="autoplay" type="integer">0</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="uid_local" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>1116</id>
+							<table>sys_file</table>
+						</element>
+					</relations>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="sys_template:5" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">5</field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697478947</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="sorting" type="integer">256</field>
+				<field index="description"></field>
+				<field index="t3_origuid" type="integer">2</field>
+				<field index="title">Introduction Package</field>
+				<field index="root" type="integer">1</field>
+				<field index="clear" type="integer">3</field>
+				<field index="include_static_file">EXT:bootstrap_package/Configuration/TypoScript</field>
+				<field index="constants">[tree.level === 0]
+page.theme.navigation.style = default-transition
+[end]
+
+page.theme.navigation.type = top
+page.theme.meta.enable = 0
+page.logo.file = fileadmin/introduction/images/introduction-package.svg
+page.logo.fileInverted = fileadmin/introduction/images/introduction-package-inverted.svg
+plugin.bootstrap_package.settings.scss.primary = #0288D1
+plugin.bootstrap_package.settings.scss.secondary = #FFEB3B
+plugin.bootstrap_package.settings.scss.breadcrumb-bg = #FFEB3B
+plugin.bootstrap_package.settings.scss.cookieconsent-bg = #F2F2F2
+plugin.bootstrap_package.settings.scss.footer-sections = (content:(background: #0288D1, color: #ffffff, link-color: #FFEB3B), meta:(background: #ffffff, color: $body-color, link-color: #0288D1))
+page.theme.socialmedia.channels.facebook.url = https://www.facebook.com/typo3/
+page.theme.socialmedia.channels.twitter.url = https://twitter.com/typo3
+page.theme.socialmedia.channels.github.url = https://github.com/TYPO3/TYPO3.CMS
+page.theme.socialmedia.channels.youtube.url = https://www.youtube.com/user/typo3
+page.theme.cookieconsent.position = bottom-right
+page.preloader.backgroundColor = #03A9F4
+page.preloader.logo.file = fileadmin/introduction/images/introduction-package-inverted.svg
+</field>
+				<field index="config"></field>
+				<field index="basedOn"></field>
+				<field index="includeStaticAfterBasedOn" type="integer">0</field>
+				<field index="static_file_mode" type="integer">3</field>
+				<field index="tx_impexp_origuid" type="integer">2</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="include_static_file" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="ext_fileref" type="array">
+								<softref_element index="2" type="array">
+									<matchString>EXT:bootstrap_package/Configuration/TypoScript</matchString>
+								</softref_element>
+							</softref_key>
+						</keys>
+					</softrefs>
+				</field>
+				<field index="constants" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="url" type="array">
+								<softref_element index="2" type="array">
+									<matchString>https://www.facebook.com/typo3/</matchString>
+									<subst type="array">
+										<type>string</type>
+										<tokenID>343a10e6c2480e111dd3e9e564eb7966</tokenID>
+										<tokenValue>https://www.facebook.com/typo3/</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="7" type="array">
+									<matchString>https://twitter.com/typo3</matchString>
+									<subst type="array">
+										<type>string</type>
+										<tokenID>e447e9841537ca15610f6264eb3a2671</tokenID>
+										<tokenValue>https://twitter.com/typo3</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="12" type="array">
+									<matchString>https://github.com/TYPO3/TYPO3.CMS</matchString>
+									<subst type="array">
+										<type>string</type>
+										<tokenID>9acad8fb6435ad4224ed723b8edb240e</tokenID>
+										<tokenValue>https://github.com/TYPO3/TYPO3.CMS</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="17" type="array">
+									<matchString>https://www.youtube.com/user/typo3</matchString>
+									<subst type="array">
+										<type>string</type>
+										<tokenID>f295b6127908fe930ce19590508d96a0</tokenID>
+										<tokenValue>https://www.youtube.com/user/typo3</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>[tree.level === 0]
+page.theme.navigation.style = default-transition
+[end]
+
+page.theme.navigation.type = top
+page.theme.meta.enable = 0
+page.logo.file = fileadmin/introduction/images/introduction-package.svg
+page.logo.fileInverted = fileadmin/introduction/images/introduction-package-inverted.svg
+plugin.bootstrap_package.settings.scss.primary = #0288D1
+plugin.bootstrap_package.settings.scss.secondary = #FFEB3B
+plugin.bootstrap_package.settings.scss.breadcrumb-bg = #FFEB3B
+plugin.bootstrap_package.settings.scss.cookieconsent-bg = #F2F2F2
+plugin.bootstrap_package.settings.scss.footer-sections = (content:(background: #0288D1, color: #ffffff, link-color: #FFEB3B), meta:(background: #ffffff, color: $body-color, link-color: #0288D1))
+page.theme.socialmedia.channels.facebook.url = {softref:343a10e6c2480e111dd3e9e564eb7966}
+page.theme.socialmedia.channels.twitter.url = {softref:e447e9841537ca15610f6264eb3a2671}
+page.theme.socialmedia.channels.github.url = {softref:9acad8fb6435ad4224ed723b8edb240e}
+page.theme.socialmedia.channels.youtube.url = {softref:f295b6127908fe930ce19590508d96a0}
+page.theme.cookieconsent.position = bottom-right
+page.preloader.backgroundColor = #03A9F4
+page.preloader.logo.file = fileadmin/introduction/images/introduction-package-inverted.svg
+</tokenizedContent>
+					</softrefs>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:612" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">612</field>
+				<field index="rowDescription"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698008008</field>
+				<field index="crdate" type="integer">1698007872</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">1</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">0</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">text</field>
+				<field index="header"></field>
+				<field index="header_position"></field>
+				<field index="bodytext">&lt;p class=&quot;text-center&quot;&gt;&lt;strong&gt;Welcome to Argentina&lt;/strong&gt; – a land where culture, nature, and cuisine intertwine. Delve into our website to uncover the rich traditions, stunning landscapes, and mouthwatering dishes that encapsulate the essence of this extraordinary nation.&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">1</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records" type="NULL"></field>
+				<field index="pages" type="NULL"></field>
+				<field index="colPos" type="integer">8</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">0</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections" type="NULL"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories" type="NULL"></field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">0</field>
+				<field index="teaser" type="NULL"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder" type="NULL"></field>
+				<field index="icon"></field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position"></field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#FFFFFF</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:475" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">475</field>
+				<field index="rowDescription"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697896043</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">2</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">226</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">text</field>
+				<field index="header">I hope you enjoyed the short tour</field>
+				<field index="header_position"></field>
+				<field index="bodytext">&lt;p&gt;Of course this is only my perspective and there is way more to see and to explore in Argentina!&lt;/p&gt;
+&lt;p&gt;But I think now you have a good first impression of what to expect and you are hungry for more.&lt;/p&gt;
+&lt;p&gt;If you planing to go to Argentina and have any questions, hit me up.&lt;/p&gt;
+&lt;p&gt;Gracias, Nos vemos!&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">12</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">4</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">1</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">226</field>
+				<field index="teaser" type="NULL"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon"></field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position"></field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#FFFFFF</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:474" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">474</field>
+				<field index="rowDescription"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697729485</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">4</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">225</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">text</field>
+				<field index="header">More about...</field>
+				<field index="header_position"></field>
+				<field index="bodytext">&lt;p&gt;&lt;a href=&quot;https://argentina.wcs.org/en-us/Wildlife.aspx&quot; title=&quot;Wildlife&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wildlife&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://larutanatural.gob.ar/es/acerca-de-argentina&quot; title=&quot;Argentina&quot;&gt;Argentina&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=TAIZg2qV9BE&amp;amp;ab_channel=CalixtoSerna-M%C3%A9xicoCookingClub&quot; title=&quot;Asado&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Learn to do Asado (Barbecue&lt;/a&gt;)&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">11</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">4</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">225</field>
+				<field index="teaser" type="NULL"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon"></field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position"></field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#FFFFFF</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="bodytext" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="typolink_tag" type="array">
+								<softref_element index="1" type="array">
+									<matchString>&lt;a href=&quot;https://argentina.wcs.org/en-us/Wildlife.aspx&quot; title=&quot;Wildlife&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+									<subst type="array">
+										<type>external</type>
+										<tokenID>9793157a4b5612ac24c60750def09187</tokenID>
+										<tokenValue>https://argentina.wcs.org/en-us/Wildlife.aspx</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="3" type="array">
+									<matchString>&lt;a href=&quot;https://larutanatural.gob.ar/es/acerca-de-argentina&quot; title=&quot;Argentina&quot;&gt;</matchString>
+									<subst type="array">
+										<type>external</type>
+										<tokenID>836133f8cd08cd1a4add6c4916e7eb89</tokenID>
+										<tokenValue>https://larutanatural.gob.ar/es/acerca-de-argentina</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="5" type="array">
+									<matchString>&lt;a href=&quot;https://www.youtube.com/watch?v=TAIZg2qV9BE&amp;amp;ab_channel=CalixtoSerna-M%C3%A9xicoCookingClub&quot; title=&quot;Asado&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+									<subst type="array">
+										<type>external</type>
+										<tokenID>7113e6e9475e8965780cec70195497e9</tokenID>
+										<tokenValue>https://www.youtube.com/watch?v=TAIZg2qV9BE&amp;amp;ab_channel=CalixtoSerna-M%C3%A9xicoCookingClub</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>&lt;p&gt;&lt;a href=&quot;{softref:9793157a4b5612ac24c60750def09187}&quot; title=&quot;Wildlife&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wildlife&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;{softref:836133f8cd08cd1a4add6c4916e7eb89}&quot; title=&quot;Argentina&quot;&gt;Argentina&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;{softref:7113e6e9475e8965780cec70195497e9}&quot; title=&quot;Asado&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Learn to do Asado (Barbecue&lt;/a&gt;)&lt;/p&gt;</tokenizedContent>
+					</softrefs>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:473" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">473</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698078712</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">8</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">224</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;tx_bootstrappackage_carousel_item&quot;:&quot;&quot;,&quot;pi_flexform&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">carousel</field>
+				<field index="header">Startpage Teaser</field>
+				<field index="header_position"></field>
+				<field index="bodytext" type="NULL"></field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">none</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">3</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">100</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;interval&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;5000&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;background_image_maxwidth&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;1920&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;wrap&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;1&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;transition&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;fade&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;show_nav_title&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">224</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon"></field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position"></field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color"></field>
+				<field index="icon_background"></field>
+				<field index="external_media_source">https://youtu.be/En72ittDqvA?si=zrWB5gMpbz7UQfJ1</field>
+				<field index="external_media_ratio">16by9</field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">1</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class"></field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options" type="NULL"></field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="pi_flexform" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+				<field index="tx_bootstrappackage_carousel_item" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>22</id>
+							<table>tx_bootstrappackage_carousel_item</table>
+						</element>
+					</relations>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:472" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">472</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697548827</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">16</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">223</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;image&quot;:&quot;&quot;,&quot;file_folder&quot;:&quot;&quot;,&quot;filelink_sorting&quot;:&quot;&quot;,&quot;imageorient&quot;:&quot;&quot;,&quot;imagecols&quot;:&quot;&quot;,&quot;image_zoom&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">textpic</field>
+				<field index="header">Live the dream of every nature enthusiast</field>
+				<field index="header_position"></field>
+				<field index="bodytext">&lt;p&gt;Argentina&#039;s natural wonders and national parks encompass a striking array of landscapes. From the captivating glaciers of Patagonia, including the renowned Perito Moreno Glacier, to the unspoiled beauty of Tierra del Fuego at the southernmost tip of South America, these areas provide a haven for both iconic and lesser-known wildlife. Whether you&#039;re captivated by the thundering spectacle of Iguazu Falls or the serene vistas of Nahuel Huapi National Park, these protected spaces offer a range of outdoor adventures and a glimpse into Argentina&#039;s rich natural heritage.&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">1</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">125</field>
+				<field index="imagecols" type="integer">1</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">0</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">2</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">223</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon">tint</field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position">left</field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color"></field>
+				<field index="icon_background"></field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">dark</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="image" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>334</id>
+							<table>sys_file_reference</table>
+						</element>
+					</relations>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:471" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">471</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1697896404</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">32</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">222</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;icon_position&quot;:&quot;&quot;,&quot;icon_type&quot;:&quot;&quot;,&quot;icon_size&quot;:&quot;&quot;,&quot;icon_set&quot;:&quot;&quot;,&quot;icon&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">texticon</field>
+				<field index="header">Places to go</field>
+				<field index="header_position">center</field>
+				<field index="bodytext">&lt;p class=&quot;text-center lead&quot;&gt;See amazing regions like Bariloche, Ushuaia, Perito Moreno.&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;t3://page?uid=199&quot;&gt;Explore&lt;/a&gt;&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">20</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">2</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">222</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/map.svg</field>
+				<field index="icon_set">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/</field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position">top</field>
+				<field index="icon_size">large</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#ffffff</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="bodytext" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="typolink_tag" type="array">
+								<softref_element index="1" type="array">
+									<matchString>&lt;a href=&quot;t3://page?uid=199&quot;&gt;</matchString>
+									<subst type="array">
+										<type>db</type>
+										<recordRef>pages:199</recordRef>
+										<tokenID>a10b65f0d33351b21568451efa3381e9</tokenID>
+										<tokenValue>199</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>&lt;p class=&quot;text-center lead&quot;&gt;See amazing regions like Bariloche, Ushuaia, Perito Moreno.&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;{softref:a10b65f0d33351b21568451efa3381e9}&quot;&gt;Explore&lt;/a&gt;&lt;/p&gt;</tokenizedContent>
+					</softrefs>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:470" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">470</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698006750</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">64</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">221</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;icon_position&quot;:&quot;&quot;,&quot;icon_type&quot;:&quot;&quot;,&quot;icon_size&quot;:&quot;&quot;,&quot;icon_set&quot;:&quot;&quot;,&quot;icon&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">texticon</field>
+				<field index="header">Avtivities</field>
+				<field index="header_position">center</field>
+				<field index="bodytext">&lt;p class=&quot;text-center lead&quot;&gt;From city tour in Buenos Aires, over wine tasting in Mendoza, &amp;nbsp;to numerous outdoor activities&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;t3://page?uid=183&quot;&gt;Dive right in&lt;/a&gt;&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">21</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">2</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">221</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/ios-tennisball.svg</field>
+				<field index="icon_set">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/</field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position">top</field>
+				<field index="icon_size">large</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#ffffff</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="bodytext" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="typolink_tag" type="array">
+								<softref_element index="1" type="array">
+									<matchString>&lt;a href=&quot;t3://page?uid=183&quot;&gt;</matchString>
+									<subst type="array">
+										<type>db</type>
+										<recordRef>pages:183</recordRef>
+										<tokenID>20bbb3ef3a618f7d89471b3486a8914c</tokenID>
+										<tokenValue>183</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>&lt;p class=&quot;text-center lead&quot;&gt;From city tour in Buenos Aires, over wine tasting in Mendoza, &amp;nbsp;to numerous outdoor activities&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;{softref:20bbb3ef3a618f7d89471b3486a8914c}&quot;&gt;Dive right in&lt;/a&gt;&lt;/p&gt;</tokenizedContent>
+					</softrefs>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:469" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">469</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698006995</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">128</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">220</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;icon_position&quot;:&quot;&quot;,&quot;icon_type&quot;:&quot;&quot;,&quot;icon_size&quot;:&quot;&quot;,&quot;icon_set&quot;:&quot;&quot;,&quot;icon&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">texticon</field>
+				<field index="header">Cuisine</field>
+				<field index="header_position">center</field>
+				<field index="bodytext">&lt;p class=&quot;text-center lead&quot;&gt;Grilled meats, empanadas and northern specialties reflecting a diverse culinary heritage.&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;t3://page?uid=196&quot;&gt;Get the taste&lt;/a&gt;&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">2</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">22</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">2</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">220</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/fork.svg</field>
+				<field index="icon_set">EXT:bootstrap_package/Resources/Public/Images/Icons/Ionicons/</field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position">top</field>
+				<field index="icon_size">large</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color">#ffffff</field>
+				<field index="icon_background">#333333</field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="bodytext" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="typolink_tag" type="array">
+								<softref_element index="1" type="array">
+									<matchString>&lt;a href=&quot;t3://page?uid=196&quot;&gt;</matchString>
+									<subst type="array">
+										<type>db</type>
+										<recordRef>pages:196</recordRef>
+										<tokenID>1e5f3ace4aa045f044533c7f6727a38c</tokenID>
+										<tokenValue>196</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>&lt;p class=&quot;text-center lead&quot;&gt;Grilled meats, empanadas and northern specialties reflecting a diverse culinary heritage.&lt;/p&gt;
+&lt;p class=&quot;text-center&quot;&gt;&lt;a href=&quot;{softref:1e5f3ace4aa045f044533c7f6727a38c}&quot;&gt;Get the taste&lt;/a&gt;&lt;/p&gt;</tokenizedContent>
+					</softrefs>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tt_content:468" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">468</field>
+				<field index="rowDescription" type="NULL"></field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698004618</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="fe_group"></field>
+				<field index="sorting" type="integer">256</field>
+				<field index="editlock" type="integer">0</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l18n_parent" type="integer">0</field>
+				<field index="l10n_source" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">219</field>
+				<field index="l18n_diffsource">{&quot;CType&quot;:&quot;&quot;,&quot;colPos&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;date&quot;:&quot;&quot;,&quot;header_link&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;bodytext&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;frame_class&quot;:&quot;&quot;,&quot;space_before_class&quot;:&quot;&quot;,&quot;space_after_class&quot;:&quot;&quot;,&quot;frame_layout&quot;:&quot;&quot;,&quot;frame_options&quot;:&quot;&quot;,&quot;background_color_class&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;sectionIndex&quot;:&quot;&quot;,&quot;linkToTop&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;fe_group&quot;:&quot;&quot;,&quot;editlock&quot;:&quot;&quot;,&quot;categories&quot;:&quot;&quot;,&quot;rowDescription&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="CType">text</field>
+				<field index="header">Other</field>
+				<field index="header_position"></field>
+				<field index="bodytext">&lt;p&gt;&lt;a href=&quot;https://tableros.yvera.tur.ar/agencias-larutanatural/&quot; title=&quot;Travel Agencies&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Travel Agencies&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://larutanatural.gob.ar/es/consejos-importantes&quot; title=&quot;Important Tips&quot;&gt;Important Tips&lt;/a&gt;&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</field>
+				<field index="bullets_type" type="integer">0</field>
+				<field index="uploads_description" type="integer">0</field>
+				<field index="uploads_type" type="integer">0</field>
+				<field index="assets" type="integer">0</field>
+				<field index="image" type="integer">0</field>
+				<field index="imagewidth" type="integer">0</field>
+				<field index="imageorient" type="integer">0</field>
+				<field index="imagecols" type="integer">1</field>
+				<field index="imageborder" type="integer">0</field>
+				<field index="media" type="integer">0</field>
+				<field index="layout" type="integer">0</field>
+				<field index="frame_class">default</field>
+				<field index="cols" type="integer">0</field>
+				<field index="space_before_class"></field>
+				<field index="space_after_class"></field>
+				<field index="records"></field>
+				<field index="pages"></field>
+				<field index="colPos" type="integer">10</field>
+				<field index="subheader"></field>
+				<field index="header_link"></field>
+				<field index="image_zoom" type="integer">0</field>
+				<field index="header_layout">4</field>
+				<field index="list_type"></field>
+				<field index="sectionIndex" type="integer">1</field>
+				<field index="linkToTop" type="integer">0</field>
+				<field index="file_collections"></field>
+				<field index="filelink_size" type="integer">0</field>
+				<field index="filelink_sorting"></field>
+				<field index="filelink_sorting_direction"></field>
+				<field index="target"></field>
+				<field index="recursive" type="integer">0</field>
+				<field index="imageheight" type="integer">0</field>
+				<field index="pi_flexform" type="NULL"></field>
+				<field index="accessibility_title"></field>
+				<field index="accessibility_bypass" type="integer">0</field>
+				<field index="accessibility_bypass_text"></field>
+				<field index="category_field"></field>
+				<field index="table_class"></field>
+				<field index="table_caption" type="NULL"></field>
+				<field index="table_delimiter" type="integer">124</field>
+				<field index="table_enclosure" type="integer">0</field>
+				<field index="table_header_position" type="integer">0</field>
+				<field index="table_tfoot" type="integer">0</field>
+				<field index="categories" type="integer">0</field>
+				<field index="selected_categories">0</field>
+				<field index="date" type="integer">0</field>
+				<field index="tx_impexp_origuid" type="integer">219</field>
+				<field index="teaser"></field>
+				<field index="aspect_ratio">1.3333333333333</field>
+				<field index="items_per_page" type="integer">10</field>
+				<field index="readmore_label"></field>
+				<field index="quote_source"></field>
+				<field index="quote_link"></field>
+				<field index="panel_class">default</field>
+				<field index="file_folder"></field>
+				<field index="icon"></field>
+				<field index="icon_set"></field>
+				<field index="icon_file" type="integer">0</field>
+				<field index="icon_position">0</field>
+				<field index="icon_size">default</field>
+				<field index="icon_type">default</field>
+				<field index="icon_color"></field>
+				<field index="icon_background"></field>
+				<field index="external_media_source"></field>
+				<field index="external_media_ratio"></field>
+				<field index="tx_bootstrappackage_card_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_carousel_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_accordion_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_icon_group_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_tab_item" type="integer">0</field>
+				<field index="tx_bootstrappackage_timeline_item" type="integer">0</field>
+				<field index="frame_layout">default</field>
+				<field index="frame_options"></field>
+				<field index="background_color_class">none</field>
+				<field index="background_image" type="integer">0</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="bodytext" type="array">
+					<softrefs type="array">
+						<keys type="array">
+							<softref_key index="typolink_tag" type="array">
+								<softref_element index="1" type="array">
+									<matchString>&lt;a href=&quot;https://tableros.yvera.tur.ar/agencias-larutanatural/&quot; title=&quot;Travel Agencies&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;</matchString>
+									<subst type="array">
+										<type>external</type>
+										<tokenID>1e60d063e9b81214d3f450df1b3d386f</tokenID>
+										<tokenValue>https://tableros.yvera.tur.ar/agencias-larutanatural/</tokenValue>
+									</subst>
+								</softref_element>
+								<softref_element index="3" type="array">
+									<matchString>&lt;a href=&quot;https://larutanatural.gob.ar/es/consejos-importantes&quot; title=&quot;Important Tips&quot;&gt;</matchString>
+									<subst type="array">
+										<type>external</type>
+										<tokenID>f78f9eafdfbac204dc39be3bc761eafa</tokenID>
+										<tokenValue>https://larutanatural.gob.ar/es/consejos-importantes</tokenValue>
+									</subst>
+								</softref_element>
+							</softref_key>
+						</keys>
+						<tokenizedContent>&lt;p&gt;&lt;a href=&quot;{softref:1e60d063e9b81214d3f450df1b3d386f}&quot; title=&quot;Travel Agencies&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Travel Agencies&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;{softref:f78f9eafdfbac204dc39be3bc761eafa}&quot; title=&quot;Important Tips&quot;&gt;Important Tips&lt;/a&gt;&lt;br /&gt;&amp;nbsp;&lt;/p&gt;</tokenizedContent>
+					</softrefs>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+		<tablerow index="tx_bootstrappackage_carousel_item:22" type="array">
+			<fieldlist index="data" type="array">
+				<field index="uid" type="integer">22</field>
+				<field index="pid" type="integer">178</field>
+				<field index="tstamp" type="integer">1698078712</field>
+				<field index="crdate" type="integer">1697478947</field>
+				<field index="deleted" type="integer">0</field>
+				<field index="hidden" type="integer">0</field>
+				<field index="starttime" type="integer">0</field>
+				<field index="endtime" type="integer">0</field>
+				<field index="sorting" type="integer">1</field>
+				<field index="sys_language_uid" type="integer">0</field>
+				<field index="l10n_parent" type="integer">0</field>
+				<field index="l10n_state" type="NULL"></field>
+				<field index="t3_origuid" type="integer">9</field>
+				<field index="l10n_diffsource">{&quot;item_type&quot;:&quot;&quot;,&quot;layout&quot;:&quot;&quot;,&quot;header&quot;:&quot;&quot;,&quot;header_layout&quot;:&quot;&quot;,&quot;header_class&quot;:&quot;&quot;,&quot;subheader&quot;:&quot;&quot;,&quot;subheader_layout&quot;:&quot;&quot;,&quot;subheader_class&quot;:&quot;&quot;,&quot;header_position&quot;:&quot;&quot;,&quot;nav_title&quot;:&quot;&quot;,&quot;text_color&quot;:&quot;&quot;,&quot;link&quot;:&quot;&quot;,&quot;background_color&quot;:&quot;&quot;,&quot;background_image&quot;:&quot;&quot;,&quot;background_image_options&quot;:&quot;&quot;,&quot;hidden&quot;:&quot;&quot;,&quot;starttime&quot;:&quot;&quot;,&quot;endtime&quot;:&quot;&quot;,&quot;sys_language_uid&quot;:&quot;&quot;}</field>
+				<field index="t3ver_oid" type="integer">0</field>
+				<field index="t3ver_wsid" type="integer">0</field>
+				<field index="t3ver_state" type="integer">0</field>
+				<field index="t3ver_stage" type="integer">0</field>
+				<field index="tt_content" type="integer">473</field>
+				<field index="item_type">header</field>
+				<field index="layout">custom</field>
+				<field index="header">.</field>
+				<field index="header_layout" type="integer">1</field>
+				<field index="header_position">center</field>
+				<field index="header_class">h2</field>
+				<field index="subheader"></field>
+				<field index="subheader_layout" type="integer">2</field>
+				<field index="subheader_class">none</field>
+				<field index="nav_title"></field>
+				<field index="button_text"></field>
+				<field index="bodytext"></field>
+				<field index="image" type="integer">0</field>
+				<field index="link"></field>
+				<field index="text_color">#f5f0f0</field>
+				<field index="background_color">#faf7f7</field>
+				<field index="background_image" type="integer">1</field>
+				<field index="background_image_options">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot; standalone=&quot;yes&quot; ?&gt;
+&lt;T3FlexForms&gt;
+    &lt;data&gt;
+        &lt;sheet index=&quot;sDEF&quot;&gt;
+            &lt;language index=&quot;lDEF&quot;&gt;
+                &lt;field index=&quot;parallax&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;fade&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;0&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;filter&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;&lt;/value&gt;
+                &lt;/field&gt;
+                &lt;field index=&quot;behaviour&quot;&gt;
+                    &lt;value index=&quot;vDEF&quot;&gt;cover&lt;/value&gt;
+                &lt;/field&gt;
+            &lt;/language&gt;
+        &lt;/sheet&gt;
+    &lt;/data&gt;
+&lt;/T3FlexForms&gt;</field>
+			</fieldlist>
+			<related index="rels" type="array">
+				<field index="tt_content" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>473</id>
+							<table>tt_content</table>
+						</element>
+					</relations>
+				</field>
+				<field index="background_image" type="array">
+					<type>db</type>
+					<relations index="itemArray" type="array">
+						<element index="0" type="array">
+							<id>457</id>
+							<table>sys_file_reference</table>
+						</element>
+					</relations>
+				</field>
+				<field index="background_image_options" type="array">
+					<type>flex</type>
+					<flexform index="flexFormRels" type="array">
+						<db_relations index="db" type="array"></db_relations>
+						<softref_relations index="softrefs" type="array"></softref_relations>
+					</flexform>
+				</field>
+			</related>
+		</tablerow>
+	</records>
+</T3RecordDocument>
